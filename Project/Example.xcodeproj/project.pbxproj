@@ -13,8 +13,8 @@
 		7E6613181C24417D00FF83EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6613161C24417D00FF83EA /* Main.storyboard */; };
 		7E66131A1C24417D00FF83EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6613191C24417D00FF83EA /* Assets.xcassets */; };
 		7E66131D1C24417D00FF83EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E66131B1C24417D00FF83EA /* LaunchScreen.storyboard */; };
-		7E6613391C244E0000FF83EA /* BIZSliderTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6613361C244E0000FF83EA /* BIZSliderTracker.m */; settings = {ASSET_TAGS = (); }; };
-		7E66133A1C244E0000FF83EA /* BIZSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6613381C244E0000FF83EA /* BIZSliderView.m */; settings = {ASSET_TAGS = (); }; };
+		7ECC930B1C3B671700EC3C59 /* BIZSliderTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC93081C3B671700EC3C59 /* BIZSliderTracker.m */; settings = {ASSET_TAGS = (); }; };
+		7ECC930C1C3B671700EC3C59 /* BIZSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC930A1C3B671700EC3C59 /* BIZSliderView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		7E6613191C24417D00FF83EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E66131C1C24417D00FF83EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E66131E1C24417D00FF83EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E6613351C244E0000FF83EA /* BIZSliderTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZSliderTracker.h; sourceTree = "<group>"; };
-		7E6613361C244E0000FF83EA /* BIZSliderTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZSliderTracker.m; sourceTree = "<group>"; };
-		7E6613371C244E0000FF83EA /* BIZSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZSliderView.h; sourceTree = "<group>"; };
-		7E6613381C244E0000FF83EA /* BIZSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZSliderView.m; sourceTree = "<group>"; };
+		7ECC93071C3B671700EC3C59 /* BIZSliderTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZSliderTracker.h; sourceTree = "<group>"; };
+		7ECC93081C3B671700EC3C59 /* BIZSliderTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZSliderTracker.m; sourceTree = "<group>"; };
+		7ECC93091C3B671700EC3C59 /* BIZSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZSliderView.h; sourceTree = "<group>"; };
+		7ECC930A1C3B671700EC3C59 /* BIZSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZSliderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		7E6613011C24417D00FF83EA = {
 			isa = PBXGroup;
 			children = (
-				7E6613341C244E0000FF83EA /* BIZSliderView */,
+				7ECC93061C3B671700EC3C59 /* Classes */,
 				7E66130C1C24417D00FF83EA /* Example */,
 				7E66130B1C24417D00FF83EA /* Products */,
 			);
@@ -86,16 +86,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7E6613341C244E0000FF83EA /* BIZSliderView */ = {
+		7ECC93061C3B671700EC3C59 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E6613351C244E0000FF83EA /* BIZSliderTracker.h */,
-				7E6613361C244E0000FF83EA /* BIZSliderTracker.m */,
-				7E6613371C244E0000FF83EA /* BIZSliderView.h */,
-				7E6613381C244E0000FF83EA /* BIZSliderView.m */,
+				7ECC93071C3B671700EC3C59 /* BIZSliderTracker.h */,
+				7ECC93081C3B671700EC3C59 /* BIZSliderTracker.m */,
+				7ECC93091C3B671700EC3C59 /* BIZSliderView.h */,
+				7ECC930A1C3B671700EC3C59 /* BIZSliderView.m */,
 			);
-			name = BIZSliderView;
-			path = ../BIZSliderView;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6613151C24417D00FF83EA /* ViewController.m in Sources */,
-				7E6613391C244E0000FF83EA /* BIZSliderTracker.m in Sources */,
-				7E66133A1C244E0000FF83EA /* BIZSliderView.m in Sources */,
+				7ECC930B1C3B671700EC3C59 /* BIZSliderTracker.m in Sources */,
+				7ECC930C1C3B671700EC3C59 /* BIZSliderView.m in Sources */,
 				7E6613121C24417D00FF83EA /* AppDelegate.m in Sources */,
 				7E66130F1C24417D00FF83EA /* main.m in Sources */,
 			);
