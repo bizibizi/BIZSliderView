@@ -11,12 +11,17 @@ BIZSliderView is a custom slider with flexible adjusting.
 # Installation
 
 ### Manually
- - Copy BIZSliderView folder to your project 
- - ```#import "BIZSliderView.h"``` 
+- Copy ```Classes``` folder to your project 
+
+### From CocoaPods:
+```objective-c
+pod 'BIZSliderView' 
+```
 
 
 # Usage
 
+ - ```#import "BIZSliderView.h"``` 
 - Create and setup ```BIZSliderView``` 
 ```objective-c
     BIZSliderView *sliderView = [[BIZSliderView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width * 0.025, 100, self.view.bounds.size.width * 0.95, 60)];
